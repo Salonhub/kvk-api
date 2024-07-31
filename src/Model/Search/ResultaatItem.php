@@ -26,7 +26,7 @@ class ResultaatItem
         ?string $rsin,
         ?string $vestigingsnummer,
         ?string $naam,
-        BinnenlandAdres|BuitenlandAdres|null $adres,
+        ?object $adres,
         ?string $type,
         ?string $actief,
         ?string $vervallenNaam,
@@ -63,7 +63,7 @@ class ResultaatItem
         return $this->naam;
     }
 
-    public function getAdres(): BinnenlandAdres|BuitenlandAdres|null
+    public function getAdres(): ?object
     {
         return $this->adres;
     }

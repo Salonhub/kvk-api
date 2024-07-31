@@ -28,7 +28,7 @@ class ResultaatItemFactory extends AbstractFactory
         );
     }
 
-    public static function extractAdres(?array $responseAdres): BinnenlandAdres|BuitenlandAdres|null
+    public static function extractAdres(?array $responseAdres): ?object
     {
         if (!empty($responseAdres['binnenlandsAdres'])) {
             return BinnenlandAdresFactory::fromResponse($responseAdres['binnenlandsAdres']);

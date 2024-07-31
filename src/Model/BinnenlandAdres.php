@@ -21,7 +21,7 @@ class BinnenlandAdres
         ?string $huisletter,
         ?int $postbusnummer,
         ?string $postcode,
-        ?string $plaats,
+        ?string $plaats
     ) {
         $this->type = $type;
         $this->straatnaam = $straatnaam;

@@ -15,7 +15,7 @@ class BuitenlandAdres
         ?string $type,
         ?string $straatHuisnummer,
         ?string $postcodeWoonplaats,
-        ?string $land,
+        ?string $land
     ) {
         $this->type = $type;
         $this->straatHuisnummer = $straatHuisnummer;
