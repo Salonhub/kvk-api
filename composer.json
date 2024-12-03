@@ -1,5 +1,5 @@
 {
-    "name": "appvise/kvk-api",
+    "name": "salonhub/kvk-api",
     "description": "PHP KVK API client",
     "type": "library",
     "keywords": [
@@ -21,8 +21,8 @@
     },
     "authors": [
         {
-            "name": "Daan Geurts-Doorenbos",
-            "email": "daan@app-vise.nl"
+            "name": "Niels Leenheer",
+            "email": "niels@salonhub.nl"
         }
     ],
     "require": {
